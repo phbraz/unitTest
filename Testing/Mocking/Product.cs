@@ -1,4 +1,4 @@
-﻿namespace UnitTestTraining.Mocking;
+﻿namespace UnitTesting.Mocking;
 
 public class Product
 {

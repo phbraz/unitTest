@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 
-namespace UnitTestTraining.Mocking;
+namespace UnitTesting.Mocking;
 
 public class VideoService
 {

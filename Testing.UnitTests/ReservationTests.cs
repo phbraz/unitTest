@@ -1,5 +1,5 @@
 using NUnit.Framework;
-using UnitTestTraining.Fundamentals;
+using UnitTesting.Fundamentals;
 using Assert = NUnit.Framework.Assert;
 
 namespace UnitTestProject;

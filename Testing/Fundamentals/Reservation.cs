@@ -1,4 +1,4 @@
-﻿namespace UnitTestTraining.Fundamentals;
+﻿namespace UnitTesting.Fundamentals;
 
 public class Reservation
 {

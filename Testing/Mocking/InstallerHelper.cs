@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace UnitTestTraining.Mocking;
+namespace UnitTesting.Mocking;
 
 public class InstallerHelper
 {

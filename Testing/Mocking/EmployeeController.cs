@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace UnitTestTraining.Mocking;
+namespace UnitTesting.Mocking;
 
 public class EmployeeController
 {
