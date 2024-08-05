@@ -2,5 +2,10 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ac0c50bd_002Dc953_002D4b7a_002Dbd62_002Dfba848878ed9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CanBeCancelledBy_UserIsAdmin_ReturnsTrue" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::A5F91541-F145-46B3-803A-F84EB2071FB3::net8.0::UnitTestProject.ReservationTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A5F91541-F145-46B3-803A-F84EB2071FB3::net8.0::UnitTestProject.MathTests.Add_WhenCalled_ReturnTheSumOfArguments&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A5F91541-F145-46B3-803A-F84EB2071FB3::net8.0::UnitTestProject.MathTests.Max_SecondArgumentIsGreater_ReturnTheSecondArgument&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A5F91541-F145-46B3-803A-F84EB2071FB3::net8.0::UnitTestProject.MathTests.Max_ArgumentsAreEqual_ReturnTheSameArgument&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A5F91541-F145-46B3-803A-F84EB2071FB3::net8.0::UnitTestProject.MathTests.Max_WhenCalled_ReturnTheGreaterArgument&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A5F91541-F145-46B3-803A-F84EB2071FB3::net8.0::UnitTestProject.MathTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
