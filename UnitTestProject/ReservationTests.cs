@@ -1,24 +1,24 @@
+using NUnit.Framework;
 using UnitTestTraining.Fundamentals;
+using Assert = NUnit.Framework.Assert;
 
 namespace UnitTestProject;
 
-[TestClass]
+[TestFixture]
 public class ReservationTests
 {
-    [TestMethod]
+    [Test]
     public void CanBeCancelledBy_UserIsAdmin_ReturnsTrue()
     {
         //Arrange
         var reservation = new Reservation();
-
         //Act 
         var result = reservation.CanBeCancelledBy(new User() { IsAdmin = true });
-
         //Assert
-        Assert.IsTrue(result);
+        Assert.That(result, Is.True);
     }
 
-    [TestMethod]
+    [Test]
     public void CanBeCancelledBy_SameUserCancelling_ReturnsTrue()
     {
         //Arrange
@@ -27,6 +27,17 @@ public class ReservationTests
         //Act
         var result = reservation.CanBeCancelledBy(user);
         //Assert
-        Assert.IsTrue(result);
+        Assert.That(result, Is.True);
+    }
+
+    [Test]
+    public void CanBeCancelledBy_AnotherUserCancellingReservation_ReturnsFalse()
+    {
+        //Arrange
+        var reservation = new Reservation() { MadeBy = new User() };
+        //Act 
+        var result = reservation.CanBeCancelledBy(new User());
+        //Assert
+        Assert.That(result, Is.False);
     }
 }

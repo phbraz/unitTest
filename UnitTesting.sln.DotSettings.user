@@ -1,7 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ac0c50bd_002Dc953_002D4b7a_002Dbd62_002Dfba848878ed9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CanBeCancelledBy_UserIsAdmin_ReturnsTrue" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;MSTest::A5F91541-F145-46B3-803A-F84EB2071FB3::net8.0::UnitTestProject.ReservationTests.CanBeCancelledBy_UserIsAdmin_ReturnsTrue&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;MSTest::A5F91541-F145-46B3-803A-F84EB2071FB3::net8.0::UnitTestProject.ReservationTests.CanBeCancelledBy_SameUserCancelling_ReturnsTrue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A5F91541-F145-46B3-803A-F84EB2071FB3::net8.0::UnitTestProject.ReservationTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
